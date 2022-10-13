@@ -1,0 +1,13 @@
+{
+  "name": "@abc/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run dev --stream"
+  },
+  "devDependencies": {
+    "lerna": "6.0.0"
+  }
+}

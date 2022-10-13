@@ -1,0 +1,20 @@
+{
+  "name": "@abc/app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^16",
+    "react-dom": "^16",
+    "@abc/ui": "*"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "2.1.0",
+    "vite": "3.1.8"
+  }
+}
