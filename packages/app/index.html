@@ -6,8 +6,18 @@
     <title>Sad App</title>
     <link rel="icon" href="https://fav.farm/😢" />
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="max-width: 30rem">
+    <p>
+      If everything was working correctly, the page you're looking at
+      <i>would</i> have a counter button (supplied by the workspace
+      <b>ui</b> lib) rendered inside the dotted area!
+    </p>
+    <p>
+      Unfortunately, there are errors caused by incompatibilities between the
+      <b>ui</b> lib workspace and the <b>app</b> workspace which cause the app
+      to fail to fully render (open up your browser console to see the error).
+    </p>
+    <div id="root" style="outline: 4px dotted gray; padding: 2rem"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
