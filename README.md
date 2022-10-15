@@ -18,7 +18,8 @@ _entire_ monorepo.
 To see my preferred method of resolving this issue in action, see
 [the companion repository for the "Happy App Monorepo"](https://github.com/andrewbrey/blog-monorepo-deps-happy-app).
 
-> This repository exists as a supporting demo for my blog post on the topic of
-> managing dependencies in monorepos. In the blog post, you will find a more
-> thorough discussion of the issue as well as discussion of the tradeoffs
-> involved with solving the issue in this way.
+> This repository exists as a supporting demo for my blog post
+> "[Your Monorepo Dependencies Are Asking for Trouble](https://blog.andrewbrey.com/2022-10-12-your-monorepo-dependencies-are-asking-for-trouble/)"
+> on the topic of managing dependencies in monorepos. In the blog post, you will
+> find a more thorough discussion of the issue as well as discussion of the
+> tradeoffs involved with solving the issue in this way.
